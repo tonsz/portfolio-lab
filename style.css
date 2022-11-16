@@ -178,13 +178,13 @@ nav ul {
 
 /* projects section */
 #projects {
-    height: 100vh;
+    height: 95vh;
     overflow: hidden;
     background-color: #f7f7f7;
 }
 
 .pr-desc {
-    padding: 85px 50px 25px 50px;
+    padding: 50px 50px 25px 50px;
     text-align: center;
 }
 
@@ -233,19 +233,15 @@ nav ul {
     width: 20px;
 }
 .pr-orgs {
-    margin-top: 10vh;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    text-align: center;
 
 }
 
 .pr-orgs-title {
-    display: inline-block;
-    width: 40%;
-    height:20vh;
-    background-color: #FFB9B9;
-    padding: 55px 80px 50px 80px;
+
     text-decoration: underline;
-    text-decoration-color: #f6e6e6;
+    text-decoration-color: #FFB9B9;
     text-decoration-thickness: 3px;
 }
 
@@ -264,12 +260,12 @@ nav ul {
     padding: 45px 25px 25px 75px;
 }
 
-.pr-orgs-list p {
+.orgs-con p {
     letter-spacing: 2px;
     margin-bottom: 5px;
 
 }
-.pr-orgs-list h4 {
+.orgs-con h4 {
    color: #ffa0a0;
 
 }
@@ -293,7 +289,7 @@ nav ul {
 
 .co-title {
     background-color: #f7f7f7;
-    margin-top: 100px;
+    margin-top: 80px;
     padding: 50px;
     border-radius: 50px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -314,7 +310,11 @@ nav ul {
     color: #ffa0a0;
 
 }
+
+.co-title img {
+    margin-top: 40px
+}
 hr {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin: 20px 0;
+
 }
