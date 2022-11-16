@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 body {
@@ -50,7 +51,7 @@ nav ul {
 
 /* home section */
 #home {
-    background-color: rgb(255, 255, 255);
+    background-color: #fff;
 }
 
 .intro {
@@ -126,7 +127,6 @@ nav ul {
 .ab-desc {
     float: right;
     width: 50%;
-    /* background-color: #fff */
     padding: 60px 160px 50px 50px;
 }
 
@@ -157,7 +157,7 @@ nav ul {
 
 
 .ab-container {
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     display: inline-block;
     width: 220px;
     background-color: #FFB9B9;
@@ -180,10 +180,11 @@ nav ul {
 #projects {
     height: 100vh;
     overflow: hidden;
+    background-color: #f7f7f7;
 }
 
 .pr-desc {
-    padding: 60px 50px 20px 40px;
+    padding: 85px 50px 25px 50px;
     text-align: center;
 }
 
@@ -196,16 +197,17 @@ nav ul {
 
 .gallery {
     text-align: center;
+    padding-left: 30px;
 }
 
 .pr-container {
     display: inline-block;
-    /* padding-right: 80px; */
     margin: 40px;
     background-color: #f6e6e6;
     border-radius: 25px;
     padding-bottom: 20px;
-    
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+ 
 }
 
 .pr-container img {
@@ -218,17 +220,101 @@ nav ul {
    
 }
 
-.pr-orgs {
-    width: 100%;
-    margin-top: 15vh;
-    height: 25vh;
-    background-color: #f6e6e6;
-}
-
 #projects a {
     font-size: 12px;
     letter-spacing: 2px;
     text-decoration: none;
     color: #ffa0a0;
     font-weight: 700;
+}
+
+.con-desc img {
+    display: inline-block;
+    width: 20px;
+}
+.pr-orgs {
+    margin-top: 10vh;
+    margin-bottom: 20px;
+
+}
+
+.pr-orgs-title {
+    display: inline-block;
+    width: 40%;
+    height:20vh;
+    background-color: #FFB9B9;
+    padding: 55px 80px 50px 80px;
+    text-decoration: underline;
+    text-decoration-color: #f6e6e6;
+    text-decoration-thickness: 3px;
+}
+
+.pr-orgs-list {
+    float:right;
+    height: 20vh;
+    width: 60%;
+    background-color: #f6e6e6;
+}
+
+
+
+.orgs-con {
+    display:inline-block;
+    text-align: center;
+    padding: 45px 25px 25px 75px;
+}
+
+.pr-orgs-list p {
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+
+}
+.pr-orgs-list h4 {
+   color: #ffa0a0;
+
+}
+
+/* contact page  */
+#contact {
+    height: 100vh;
+    background-image: url("./img/background.png");
+   background-position: center;
+   background-size: cover;
+    overflow: hidden;
+    
+}
+
+.co-con {
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+}
+
+.co-title {
+    background-color: #f7f7f7;
+    margin-top: 100px;
+    padding: 50px;
+    border-radius: 50px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.co-title h1 {
+    font-size: 40px;
+}
+.co-title p {
+    padding: 15px 20px 5px 20px;
+}
+
+.co-account {
+    display: inline-block;
+    letter-spacing: 2px;
+    
+}
+.co-title h4 {
+    color: #ffa0a0;
+
+}
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
